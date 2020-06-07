@@ -1,0 +1,161 @@
+* {
+    background-color: #f7f9fb;
+    box-sizing: border-box;
+    font-family: Calibri;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: #5085a5;
+    border: 1px solid #31708E;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    background-color: inherit;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: inherit;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f7f9fb;
+    background-color: inherit;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+nav a:hover {
+    background: #f7f9fb;
+    color: #5085a5;]
+}
+
+h1, h2 {
+  color: #31708E;
+  text-align: center;
+}
+
+h1 {
+    border-top: 5px solid #8FC1E3;
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+
+h2 {
+
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #8FC1E3;
+}
+
+h3 {
+    color: #f7f9fb;
+    background-color: #31708E;
+    padding: 10px;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.audio-player {
+    flex: 50%;
+}
+
+.download {
+    display: block;
+    color: #31708E;
+    border-top: 3px solid #687864;
+    border-bottom: 3px solid #687864;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* .audio-player .download {
+    width: 200px
+} */
+
+.download a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download a:hover {
+    color: #f7f9fb;
+    background: #687864;
+    width: 200px;
+    display: block;
+}
+
+.audio-label {
+    color: #687864;
+    font-style: italic;
+    margin: 10px;
+}
+
+.two-column audio {
+    width: 90%;
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+video {
+    margin-top: 0;
+}
+
+audio {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.commentary a {
+    text-decoration: none;
+    color: #31708E;
+}
+
+.commentary a:hover {
+    font-weight: bold;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+img {
+    margin: 10px;
+    max-width: 300px;
+    min-width: 200px;
+}
